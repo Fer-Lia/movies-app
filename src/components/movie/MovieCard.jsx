@@ -16,7 +16,8 @@ export default function MovieCard({ movie }) {
         <h3 className="movie-card__title">{movie.title}</h3>
         <div className="movie-card__meta">
             <span className="movie-card__year">{year}</span>
-            <span className="movie-card__rating">⭐ {movie.vote_average}</span>
+            <span className="movie-card__rating">⭐ {movie.vote_average?.toFixed(1)}</span>
+
         </div>
      </div>
     </article>
