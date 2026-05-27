@@ -1,0 +1,11 @@
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.empty-state__text {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+}

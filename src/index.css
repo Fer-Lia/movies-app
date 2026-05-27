@@ -1,0 +1,56 @@
+:root {
+  --color-bg: #131313;
+  --color-accent: #F5C518;
+  --color-accent-dark: #241A00;
+  --color-accent-muted: rgba(245, 197, 24, 0.2);
+  --color-text-primary: #E5E2E1;
+  --color-text-secondary: #D1C5AC;
+  --color-text-placeholder: #6B7280;
+  --color-white: #FFFFFF;
+  --color-overlay: rgba(255, 255, 255, 0.05);
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-secondary: rgba(255, 255, 255, 0.3);
+  --color-nav-bg: rgba(19, 19, 19, 0.8);
+
+  --font-title: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  --shadow-accent: 0px 20px 25px -5px rgba(245, 197, 24, 0.2), 0px 8px 10px -6px rgba(245, 197, 24, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
