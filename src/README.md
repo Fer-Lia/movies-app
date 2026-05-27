@@ -157,18 +157,6 @@ src/pages/
 │   └── WelcomePage.jsx
 ├── ExplorePage/
 │   └── ExplorePage.jsx
-├── MovieDetailPage/
-│   └── MovieDetailPage.jsx
-├── ActorDetailPage/
-│   └── ActorDetailPage.jsx
-├── DirectorDetailPage/
-│   └── DirectorDetailPage.jsx
-├── FavoritesPage/
-│   └── FavoritesPage.jsx
-├── ProfilePage/
-│   └── ProfilePage.jsx
-├── LoginPage/
-│   └── LoginPage.jsx
 └── NotFoundPage/
     └── NotFoundPage.jsx
 ```
@@ -179,25 +167,7 @@ Muestra título, subtítulo y dos botones: uno para ir a explorar películas y o
 Usa `useNavigate` de React Router para navegar sin recargar la página, `TEXTS.welcome` para los textos y `ROUTES` para las rutas — sin ningún string hardcodeado.
 
 ### `ExplorePage/ExplorePage.jsx`
-Página de exploración de películas. Placeholder inicial — se desarrollará en la Épica 1.
-
-### `MovieDetailPage/MovieDetailPage.jsx`
-Ficha detallada de una película. Placeholder inicial — se desarrollará en la Épica 2.
-
-### `ActorDetailPage/ActorDetailPage.jsx`
-Ficha detallada de un actor. Placeholder inicial — se desarrollará en la Épica 2.
-
-### `DirectorDetailPage/DirectorDetailPage.jsx`
-Ficha detallada de un director. Placeholder inicial — se desarrollará en la Épica 2.
-
-### `FavoritesPage/FavoritesPage.jsx`
-Lista de películas favoritas del usuario. Placeholder inicial — se desarrollará en la Épica 4.
-
-### `ProfilePage/ProfilePage.jsx`
-Perfil del usuario. Placeholder inicial — se desarrollará en la Épica 5.
-
-### `LoginPage/LoginPage.jsx`
-Formulario de inicio de sesión. Placeholder inicial — se desarrollará en la Épica 3.
+Página principal de la app. Muestra el listado de películas populares con búsqueda por texto en tiempo real y scroll infinito.
 
 ### `NotFoundPage/NotFoundPage.jsx`
 Página 404. Se muestra cuando la URL no coincide con ninguna ruta definida.
