@@ -59,6 +59,11 @@ export const TEXTS = {
     noAccount: "¿No tienes cuenta?",
     registerLink: "Regístrate",
   },
+  notFound: {
+    title: "Esta escena no existe",
+    subtitle: "La página que buscas no está en el catálogo.",
+    button: "Volver al inicio",
+  },
   errors: {
     generic: "Algo salió mal. Inténtalo de nuevo.",
     notFound: "Página no encontrada.",

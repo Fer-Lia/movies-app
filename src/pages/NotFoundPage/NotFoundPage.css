@@ -1,0 +1,29 @@
+.not-found-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.not-found-page__code {
+  font-family: var(--font-title);
+  font-size: clamp(6rem, 20vw, 12rem);
+  color: var(--color-text-primary);
+  line-height: 1;
+}
+
+.not-found-page__title {
+  font-family: var(--font-title);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--color-text-primary);
+}
+
+.not-found-page__subtitle {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
